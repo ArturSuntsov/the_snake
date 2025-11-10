@@ -150,8 +150,8 @@ def main():
     snake = Snake()
     apple = Apple()
     
-    # while True:
-    #     clock.tick(SPEED)
+    while True:
+        clock.tick(SPEED)
 
         # Тут опишите основную логику игры.
         handle_keys(snake)
